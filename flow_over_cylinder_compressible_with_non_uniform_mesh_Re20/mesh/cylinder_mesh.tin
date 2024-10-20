@@ -1,0 +1,70 @@
+// tetin file version 1.1
+// written by ICEM CFD - version 21.1 on Thu Jul 13 05:08:53 2023
+// written by ICEM CFD - version 21.1 on Thu Jul 13 06:00:34 2023
+
+set_triangulation_tolerance 0.001
+define_family PNTS color 14693271
+define_family CURVS color 3407183
+define_family FLUID color 12109107
+
+prescribed_point -20 -20 0 family PNTS name pnt.00
+prescribed_point -20 20 0 family PNTS name pnt.01
+prescribed_point 30 20 0 family PNTS name pnt.02
+prescribed_point 30 -20 0 family PNTS name pnt.03
+prescribed_point 0 0 0 family PNTS name pnt.04
+prescribed_point 0.6 0.6 0 family PNTS name pnt.09
+prescribed_point -0.6 0.6 0 family PNTS name pnt.10
+prescribed_point -0.6 -0.6 0 family PNTS name pnt.11
+prescribed_point 0.6 -0.6 0 family PNTS name pnt.12
+define_curve family CURVS tetra_size 1e+10 name crv.00 vertex1 pnt.01 vertex2 pnt.02
+bspline
+2,2,0
+0,0,1,1
+-20,20,0
+30,20,0
+define_curve family CURVS tetra_size 1e+10 name crv.01 vertex1 pnt.02 vertex2 pnt.03
+bspline
+2,2,0
+0,0,1,1
+30,20,0
+30,-20,0
+define_curve family CURVS tetra_size 1e+10 name crv.02 vertex1 pnt.03 vertex2 pnt.00
+bspline
+2,2,0
+0,0,1,1
+30,-20,0
+-20,-20,0
+define_curve family CURVS tetra_size 1e+10 name crv.03 vertex1 pnt.00 vertex2 pnt.01
+bspline
+2,2,0
+0,0,1,1
+-20,-20,0
+-20,20,0
+define_curve family CURVS tetra_size 1e+10 name crv.04 vertex1 pnt.10 vertex2 pnt.09
+bspline
+2,2,0
+0,0,1,1
+-0.6,0.6,0
+0.6,0.6,0
+define_curve family CURVS tetra_size 1e+10 name crv.05 vertex1 pnt.09 vertex2 pnt.12
+bspline
+2,2,0
+0,0,1,1
+0.6,0.6,0
+0.6,-0.6,0
+define_curve family CURVS tetra_size 1e+10 name crv.06 vertex1 pnt.12 vertex2 pnt.11
+bspline
+2,2,0
+0,0,1,1
+0.6,-0.6,0
+-0.6,-0.6,0
+define_curve family CURVS tetra_size 1e+10 name crv.07 vertex1 pnt.11 vertex2 pnt.10
+bspline
+2,2,0
+0,0,1,1
+-0.6,-0.6,0
+-0.6,0.6,0
+affix 0
+define_model 1e+10 reference_size 1
+define_prism_meshing_parameters law 0 nlay 3 hratio 1.2 min_quality 0.01 fillet 0.1 tetra_smooth_limit 0.3
+return
