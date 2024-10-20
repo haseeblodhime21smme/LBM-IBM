@@ -1,4 +1,4 @@
 # LBM-IBM-RL
 
-Repository for development of Lattice Boltzmann Method code that can be integrated with Immersed Boundary Method for Deep Reinforcement Learning applications like Active Flow Control.
-MATLAB code is for prototyping, later it will be shifted to C++
+Repository for development of Lattice Boltzmann Method code that can be integrated with Immersed Boundary Method for Deep Reinforcement Learning applications like Active Flow Control. <br/>
+Prototyping in MATLAB and full-scale implementation in C++.
