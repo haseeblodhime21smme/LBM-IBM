@@ -1,0 +1,12 @@
+11.0 n_subfaces 1 n_families 4
+GEOM
+FLUID
+DEFAULT_EDGE
+DEFAULT_VERTEX
+0
+# 0 composite curves
+# 4 edges
+<surface>
+<surface>
+<surface>
+<surface>

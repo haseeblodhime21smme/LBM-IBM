@@ -1,0 +1,8 @@
+# family_boco file written by ICEM CFD by Haseeb on Wed Jul 19 5:25:07 am Pakistan Standard Time 2023
+## solver Multiblock-info
+"GEOM"
+"GEOM" "color" 16663900
+"FLUID"
+"FLUID" "color" 12109100
+"DEFAULT_EDGE"
+"DEFAULT_VERTEX"

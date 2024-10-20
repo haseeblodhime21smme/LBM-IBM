@@ -1,0 +1,17 @@
+# block name	   imin   jmin   kmin   imax   jmax   kmax
+
+domain.1	     1      1      1     97     97      1
+
+# Connectivity for domain.1
+
+# Boundary conditions and/or properties for domain.1
+FLUID	b      1      1      1     97     97      1
+FLUID	f      1      1      1     97     97      1
+DEFAULT_EDGE	e      1      1      1     97      1      1
+DEFAULT_EDGE	e      1      1      1      1     97      1
+DEFAULT_EDGE	e      1     97      1     97     97      1
+DEFAULT_EDGE	e     97      1      1     97     97      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v     97      1      1     97      1      1
+DEFAULT_VERTEX	v      1     97      1      1     97      1
+DEFAULT_VERTEX	v     97     97      1     97     97      1

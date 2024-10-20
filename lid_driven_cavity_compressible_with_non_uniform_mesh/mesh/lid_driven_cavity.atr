@@ -1,0 +1,29 @@
+# Written by ICEM CFD 21.1, user Haseeb, Wed Jul 19 5:25:07 am Pakistan Standard Time 2023
+
+begin family GEOM
+    begin solver "Multiblock-info"
+        begin bctype color
+            active 1
+            color 16663900 1
+        end bctype color
+    end solver "Multiblock-info"
+end family GEOM
+
+begin family FLUID
+    begin solver "Multiblock-info"
+        begin bctype color
+            active 1
+            color 12109100 1
+        end bctype color
+    end solver "Multiblock-info"
+end family FLUID
+
+begin family DEFAULT_EDGE
+    begin solver "Multiblock-info"
+    end solver "Multiblock-info"
+end family DEFAULT_EDGE
+
+begin family DEFAULT_VERTEX
+    begin solver "Multiblock-info"
+    end solver "Multiblock-info"
+end family DEFAULT_VERTEX
