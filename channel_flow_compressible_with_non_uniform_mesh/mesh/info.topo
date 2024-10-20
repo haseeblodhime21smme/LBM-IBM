@@ -1,0 +1,311 @@
+# block name	   imin   jmin   kmin   imax   jmax   kmax
+
+domain.1	     1      1      1    150    125      1
+domain.2	     1      1      1     97    125      1
+domain.3	     1      1      1    250    125      1
+domain.4	     1      1      1    150     97      1
+domain.5	     1      1      1     97     97      1
+domain.6	     1      1      1    250     97      1
+domain.7	     1      1      1    150    125      1
+domain.8	     1      1      1     97    125      1
+domain.9	     1      1      1    250    125      1
+
+# Connectivity for domain.1
+  1  domain.1  	 i j-k  	e       1    125      1    150    125      1
+  1  domain.4  	 i-j-k  	e       1      1      1    150      1      1
+  2  domain.1  	 j i-k  	e       1    150      1    125    150      1
+  2  domain.2  	 j-i-k  	e       1      1      1    125      1      1
+  3  domain.1  	 i j k  	v     150      1      1    150      1      1
+  3  domain.2  	 i j k  	v       1      1      1      1      1      1
+  4  domain.1  	 i j k  	v       1    125      1      1    125      1
+  4  domain.4  	 i j k  	v       1      1      1      1      1      1
+  5  domain.1  	 i j k  	v     150    125      1    150    125      1
+  5  domain.2  	 i j k  	v       1    125      1      1    125      1
+  6  domain.1  	 i j k  	v     150    125      1    150    125      1
+  6  domain.4  	 i j k  	v     150      1      1    150      1      1
+  7  domain.1  	 i j k  	v     150    125      1    150    125      1
+  7  domain.5  	 i j k  	v       1      1      1      1      1      1
+
+# Connectivity for domain.2
+  8  domain.2  	 j-i-k  	e       1      1      1    125      1      1
+  8  domain.1  	 j i-k  	e       1    150      1    125    150      1
+  9  domain.2  	 i j-k  	e       1    125      1     97    125      1
+  9  domain.5  	 i-j-k  	e       1      1      1     97      1      1
+ 10  domain.2  	 j i-k  	e       1     97      1    125     97      1
+ 10  domain.3  	 j-i-k  	e       1      1      1    125      1      1
+ 11  domain.2  	 i j k  	v       1      1      1      1      1      1
+ 11  domain.1  	 i j k  	v     150      1      1    150      1      1
+ 12  domain.2  	 i j k  	v       1    125      1      1    125      1
+ 12  domain.1  	 i j k  	v     150    125      1    150    125      1
+ 13  domain.2  	 i j k  	v       1    125      1      1    125      1
+ 13  domain.4  	 i j k  	v     150      1      1    150      1      1
+ 14  domain.2  	 i j k  	v       1    125      1      1    125      1
+ 14  domain.5  	 i j k  	v       1      1      1      1      1      1
+ 15  domain.2  	 i j k  	v      97      1      1     97      1      1
+ 15  domain.3  	 i j k  	v       1      1      1      1      1      1
+ 16  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 16  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 17  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 17  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 18  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 18  domain.6  	 i j k  	v       1      1      1      1      1      1
+
+# Connectivity for domain.3
+ 19  domain.3  	 j-i-k  	e       1      1      1    125      1      1
+ 19  domain.2  	 j i-k  	e       1     97      1    125     97      1
+ 20  domain.3  	 i j-k  	e       1    125      1    250    125      1
+ 20  domain.6  	 i-j-k  	e       1      1      1    250      1      1
+ 21  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 21  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 22  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 22  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 23  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 23  domain.6  	 i j k  	v       1      1      1      1      1      1
+ 24  domain.3  	 i j k  	v     250    125      1    250    125      1
+ 24  domain.6  	 i j k  	v     250      1      1    250      1      1
+
+# Connectivity for domain.4
+ 25  domain.4  	 i-j-k  	e       1      1      1    150      1      1
+ 25  domain.1  	 i j-k  	e       1    125      1    150    125      1
+ 26  domain.4  	 i j-k  	e       1     97      1    150     97      1
+ 26  domain.7  	 i-j-k  	e       1      1      1    150      1      1
+ 27  domain.4  	 j i-k  	e       1    150      1     97    150      1
+ 27  domain.5  	 j-i-k  	e       1      1      1     97      1      1
+ 28  domain.4  	 i j k  	v       1      1      1      1      1      1
+ 28  domain.1  	 i j k  	v       1    125      1      1    125      1
+ 29  domain.4  	 i j k  	v     150      1      1    150      1      1
+ 29  domain.1  	 i j k  	v     150    125      1    150    125      1
+ 30  domain.4  	 i j k  	v     150      1      1    150      1      1
+ 30  domain.2  	 i j k  	v       1    125      1      1    125      1
+ 31  domain.4  	 i j k  	v     150      1      1    150      1      1
+ 31  domain.5  	 i j k  	v       1      1      1      1      1      1
+ 32  domain.4  	 i j k  	v       1     97      1      1     97      1
+ 32  domain.7  	 i j k  	v       1      1      1      1      1      1
+ 33  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 33  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 34  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 34  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 35  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 35  domain.8  	 i j k  	v       1      1      1      1      1      1
+
+# Connectivity for domain.5
+ 36  domain.5  	 i-j-k  	e       1      1      1     97      1      1
+ 36  domain.2  	 i j-k  	e       1    125      1     97    125      1
+ 37  domain.5  	 j-i-k  	e       1      1      1     97      1      1
+ 37  domain.4  	 j i-k  	e       1    150      1     97    150      1
+ 38  domain.5  	 i j-k  	e       1     97      1     97     97      1
+ 38  domain.8  	 i-j-k  	e       1      1      1     97      1      1
+ 39  domain.5  	 j i-k  	e       1     97      1     97     97      1
+ 39  domain.6  	 j-i-k  	e       1      1      1     97      1      1
+ 40  domain.5  	 i j k  	v       1      1      1      1      1      1
+ 40  domain.1  	 i j k  	v     150    125      1    150    125      1
+ 41  domain.5  	 i j k  	v       1      1      1      1      1      1
+ 41  domain.2  	 i j k  	v       1    125      1      1    125      1
+ 42  domain.5  	 i j k  	v       1      1      1      1      1      1
+ 42  domain.4  	 i j k  	v     150      1      1    150      1      1
+ 43  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 43  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 44  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 44  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 45  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 45  domain.6  	 i j k  	v       1      1      1      1      1      1
+ 46  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 46  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 47  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 47  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 48  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 48  domain.8  	 i j k  	v       1      1      1      1      1      1
+ 49  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 49  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 50  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 50  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 51  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 51  domain.9  	 i j k  	v       1      1      1      1      1      1
+
+# Connectivity for domain.6
+ 52  domain.6  	 i-j-k  	e       1      1      1    250      1      1
+ 52  domain.3  	 i j-k  	e       1    125      1    250    125      1
+ 53  domain.6  	 j-i-k  	e       1      1      1     97      1      1
+ 53  domain.5  	 j i-k  	e       1     97      1     97     97      1
+ 54  domain.6  	 i j-k  	e       1     97      1    250     97      1
+ 54  domain.9  	 i-j-k  	e       1      1      1    250      1      1
+ 55  domain.6  	 i j k  	v       1      1      1      1      1      1
+ 55  domain.2  	 i j k  	v      97    125      1     97    125      1
+ 56  domain.6  	 i j k  	v       1      1      1      1      1      1
+ 56  domain.3  	 i j k  	v       1    125      1      1    125      1
+ 57  domain.6  	 i j k  	v       1      1      1      1      1      1
+ 57  domain.5  	 i j k  	v      97      1      1     97      1      1
+ 58  domain.6  	 i j k  	v     250      1      1    250      1      1
+ 58  domain.3  	 i j k  	v     250    125      1    250    125      1
+ 59  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 59  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 60  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 60  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 61  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 61  domain.9  	 i j k  	v       1      1      1      1      1      1
+ 62  domain.6  	 i j k  	v     250     97      1    250     97      1
+ 62  domain.9  	 i j k  	v     250      1      1    250      1      1
+
+# Connectivity for domain.7
+ 63  domain.7  	 i-j-k  	e       1      1      1    150      1      1
+ 63  domain.4  	 i j-k  	e       1     97      1    150     97      1
+ 64  domain.7  	 j i-k  	e       1    150      1    125    150      1
+ 64  domain.8  	 j-i-k  	e       1      1      1    125      1      1
+ 65  domain.7  	 i j k  	v       1      1      1      1      1      1
+ 65  domain.4  	 i j k  	v       1     97      1      1     97      1
+ 66  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 66  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 67  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 67  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 68  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 68  domain.8  	 i j k  	v       1      1      1      1      1      1
+ 69  domain.7  	 i j k  	v     150    125      1    150    125      1
+ 69  domain.8  	 i j k  	v       1    125      1      1    125      1
+
+# Connectivity for domain.8
+ 70  domain.8  	 i-j-k  	e       1      1      1     97      1      1
+ 70  domain.5  	 i j-k  	e       1     97      1     97     97      1
+ 71  domain.8  	 j-i-k  	e       1      1      1    125      1      1
+ 71  domain.7  	 j i-k  	e       1    150      1    125    150      1
+ 72  domain.8  	 j i-k  	e       1     97      1    125     97      1
+ 72  domain.9  	 j-i-k  	e       1      1      1    125      1      1
+ 73  domain.8  	 i j k  	v       1      1      1      1      1      1
+ 73  domain.4  	 i j k  	v     150     97      1    150     97      1
+ 74  domain.8  	 i j k  	v       1      1      1      1      1      1
+ 74  domain.5  	 i j k  	v       1     97      1      1     97      1
+ 75  domain.8  	 i j k  	v       1      1      1      1      1      1
+ 75  domain.7  	 i j k  	v     150      1      1    150      1      1
+ 76  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 76  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 77  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 77  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 78  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 78  domain.9  	 i j k  	v       1      1      1      1      1      1
+ 79  domain.8  	 i j k  	v       1    125      1      1    125      1
+ 79  domain.7  	 i j k  	v     150    125      1    150    125      1
+ 80  domain.8  	 i j k  	v      97    125      1     97    125      1
+ 80  domain.9  	 i j k  	v       1    125      1      1    125      1
+
+# Connectivity for domain.9
+ 81  domain.9  	 i-j-k  	e       1      1      1    250      1      1
+ 81  domain.6  	 i j-k  	e       1     97      1    250     97      1
+ 82  domain.9  	 j-i-k  	e       1      1      1    125      1      1
+ 82  domain.8  	 j i-k  	e       1     97      1    125     97      1
+ 83  domain.9  	 i j k  	v       1      1      1      1      1      1
+ 83  domain.5  	 i j k  	v      97     97      1     97     97      1
+ 84  domain.9  	 i j k  	v       1      1      1      1      1      1
+ 84  domain.6  	 i j k  	v       1     97      1      1     97      1
+ 85  domain.9  	 i j k  	v       1      1      1      1      1      1
+ 85  domain.8  	 i j k  	v      97      1      1     97      1      1
+ 86  domain.9  	 i j k  	v     250      1      1    250      1      1
+ 86  domain.6  	 i j k  	v     250     97      1    250     97      1
+ 87  domain.9  	 i j k  	v       1    125      1      1    125      1
+ 87  domain.8  	 i j k  	v      97    125      1     97    125      1
+
+# Boundary conditions and/or properties for domain.1
+FLUID	b      1      1      1    150    125      1
+FLUID	f      1      1      1    150    125      1
+DEFAULT_EDGE	e      1      1      1    150      1      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1    125      1    150    125      1
+DEFAULT_EDGE	e    150      1      1    150    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v    150      1      1    150      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v    150    125      1    150    125      1
+
+# Boundary conditions and/or properties for domain.2
+FLUID	b      1      1      1     97    125      1
+FLUID	f      1      1      1     97    125      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1      1      1     97      1      1
+DEFAULT_EDGE	e      1    125      1     97    125      1
+DEFAULT_EDGE	e     97      1      1     97    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v     97      1      1     97      1      1
+DEFAULT_VERTEX	v     97    125      1     97    125      1
+
+# Boundary conditions and/or properties for domain.3
+FLUID	b      1      1      1    250    125      1
+FLUID	f      1      1      1    250    125      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1      1      1    250      1      1
+DEFAULT_EDGE	e      1    125      1    250    125      1
+DEFAULT_EDGE	e    250      1      1    250    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v    250      1      1    250      1      1
+DEFAULT_VERTEX	v    250    125      1    250    125      1
+
+# Boundary conditions and/or properties for domain.4
+FLUID	b      1      1      1    150     97      1
+FLUID	f      1      1      1    150     97      1
+DEFAULT_EDGE	e      1      1      1    150      1      1
+DEFAULT_EDGE	e      1      1      1      1     97      1
+DEFAULT_EDGE	e      1     97      1    150     97      1
+DEFAULT_EDGE	e    150      1      1    150     97      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v    150      1      1    150      1      1
+DEFAULT_VERTEX	v      1     97      1      1     97      1
+DEFAULT_VERTEX	v    150     97      1    150     97      1
+
+# Boundary conditions and/or properties for domain.5
+FLUID	b      1      1      1     97     97      1
+FLUID	f      1      1      1     97     97      1
+DEFAULT_EDGE	e      1      1      1     97      1      1
+DEFAULT_EDGE	e      1      1      1      1     97      1
+DEFAULT_EDGE	e      1     97      1     97     97      1
+DEFAULT_EDGE	e     97      1      1     97     97      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v     97      1      1     97      1      1
+DEFAULT_VERTEX	v      1     97      1      1     97      1
+DEFAULT_VERTEX	v     97     97      1     97     97      1
+
+# Boundary conditions and/or properties for domain.6
+FLUID	b      1      1      1    250     97      1
+FLUID	f      1      1      1    250     97      1
+DEFAULT_EDGE	e      1      1      1    250      1      1
+DEFAULT_EDGE	e      1      1      1      1     97      1
+DEFAULT_EDGE	e      1     97      1    250     97      1
+DEFAULT_EDGE	e    250      1      1    250     97      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v    250      1      1    250      1      1
+DEFAULT_VERTEX	v      1     97      1      1     97      1
+DEFAULT_VERTEX	v    250     97      1    250     97      1
+
+# Boundary conditions and/or properties for domain.7
+FLUID	b      1      1      1    150    125      1
+FLUID	f      1      1      1    150    125      1
+DEFAULT_EDGE	e      1      1      1    150      1      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1    125      1    150    125      1
+DEFAULT_EDGE	e    150      1      1    150    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v    150      1      1    150      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v    150    125      1    150    125      1
+
+# Boundary conditions and/or properties for domain.8
+FLUID	b      1      1      1     97    125      1
+FLUID	f      1      1      1     97    125      1
+DEFAULT_EDGE	e      1      1      1     97      1      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1    125      1     97    125      1
+DEFAULT_EDGE	e     97      1      1     97    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v     97      1      1     97      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v     97    125      1     97    125      1
+
+# Boundary conditions and/or properties for domain.9
+FLUID	b      1      1      1    250    125      1
+FLUID	f      1      1      1    250    125      1
+DEFAULT_EDGE	e      1      1      1    250      1      1
+DEFAULT_EDGE	e      1      1      1      1    125      1
+DEFAULT_EDGE	e      1    125      1    250    125      1
+DEFAULT_EDGE	e    250      1      1    250    125      1
+DEFAULT_VERTEX	v      1      1      1      1      1      1
+DEFAULT_VERTEX	v    250      1      1    250      1      1
+DEFAULT_VERTEX	v      1    125      1      1    125      1
+DEFAULT_VERTEX	v    250    125      1    250    125      1

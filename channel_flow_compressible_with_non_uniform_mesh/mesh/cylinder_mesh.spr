@@ -1,0 +1,41 @@
+11.0 n_subfaces 9 n_families 5
+PNTS
+CURVS
+FLUID
+DEFAULT_EDGE
+DEFAULT_VERTEX
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# 0 composite curves
+# 24 edges
+<surface>
+<surface>
+<volume>
+<volume>
+<surface>
+<volume>
+<volume>
+<surface>
+<volume>
+<surface>
+<surface>
+<volume>
+<volume>
+<volume>
+<volume>
+<volume>
+<surface>
+<surface>
+<surface>
+<volume>
+<surface>
+<volume>
+<surface>
+<surface>
