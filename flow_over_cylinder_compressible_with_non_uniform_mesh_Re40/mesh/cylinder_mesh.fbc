@@ -1,0 +1,10 @@
+# family_boco file written by ICEM CFD by Haseeb on Thu Jul 13 6:00:34 am Pakistan Standard Time 2023
+## solver Multiblock-info
+"PNTS"
+"PNTS" "color" 14693300
+"CURVS"
+"FLUID"
+"FLUID" "color" 12109107
+"DEFAULT_EDGE"
+"DEFAULT_VERTEX"
+

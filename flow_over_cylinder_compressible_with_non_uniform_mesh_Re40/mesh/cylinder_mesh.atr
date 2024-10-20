@@ -1,0 +1,34 @@
+# Written by ICEM CFD 21.1, user Haseeb, Thu Jul 13 6:00:34 am Pakistan Standard Time 2023
+
+begin family PNTS
+    begin solver "Multiblock-info"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Multiblock-info"
+end family PNTS
+
+begin family CURVS
+    begin solver "Multiblock-info"
+    end solver "Multiblock-info"
+end family CURVS
+
+begin family FLUID
+    begin solver "Multiblock-info"
+        begin bctype color
+            active 1
+            color 12109100 1
+        end bctype color
+    end solver "Multiblock-info"
+end family FLUID
+
+begin family DEFAULT_EDGE
+    begin solver "Multiblock-info"
+    end solver "Multiblock-info"
+end family DEFAULT_EDGE
+
+begin family DEFAULT_VERTEX
+    begin solver "Multiblock-info"
+    end solver "Multiblock-info"
+end family DEFAULT_VERTEX
